@@ -12,7 +12,7 @@ class CalculatorBrain {
   String getResult() {
     if (_bmi >= 25) {
       print('coucou1 $_bmi');
-      return 'OverWeight';
+      return 'SURPOIDS';
     } else {
       if (_bmi >= 21) {
         print('coucou2 $_bmi');
@@ -28,9 +28,9 @@ class CalculatorBrain {
     if (_bmi >= 25) {
       return 'GROLARS va faire du sport FEIGNASSE';
     } else if (_bmi >= 18.5) {
-      return 'Votre poids est normal, good job!';
+      return 'Votre corpulence est normal, good job!';
     } else {
-      return 'Trop maigre tu va t/' 'envoler, il faut manger!';
+      return 'Vous êtes trop maigre, il faut manger!';
     }
   }
 
