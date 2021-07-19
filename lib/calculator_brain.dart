@@ -29,19 +29,19 @@ class CalculatorBrain {
 
   String getInterpretation() {
     if (_bmi >= 40) {
-      return 'ATTENTION vous êtes en surpoids CRITIQUE il faut consulter!';
+      return 'ATTENTION vous êtes en surpoids CRITIQUE et en DANGER, il faut consulter!';
     } else if (_bmi >= 35) {
-      return 'Vous êtes en grand surpoids important il faut agir!';
+      return 'Vous êtes en grand surpoids important il faut agir.';
     } else if (_bmi >= 30) {
       return 'Vous êtes en surpoids, un petit régime ?';
     } else if (_bmi >= 25) {
-      return 'Votre dépassez la corpulence normal,un petit régime ?';
+      return 'Votre dépassez la corpulence normal, un petit régime ?';
     } else if (_bmi >= 18.5) {
-      return 'Votre corpulence est normal, good job!';
+      return 'Votre corpulence est normal, bien joué!';
     } else if (_bmi >= 16.5) {
-      return 'Vous êtes trop maigre, il faut manger!';
+      return 'Vous êtes trop maigre, il faut manger.';
     } else {
-      return 'ATTENTION vous êtes bien trop maigre et en DANGER! Il faut consulter.';
+      return 'ATTENTION vous êtes trop maigre et en DANGER, Il faut consulter!';
     }
   }
 
